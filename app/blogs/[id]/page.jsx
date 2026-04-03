@@ -39,7 +39,7 @@ const page = () => {
     <div className='mx-5 max-w-200 md:mx-auto -mt-25 mb-10'  > 
       <Image className='border-4 border-white' src={data.image} width={1280} height={720} alt=''    />
     
-      <div className='blog-content' dangerouslySetInnerHTML={{__html:data.decription}} ></div>
+      <div className='blog-content' dangerouslySetInnerHTML={{__html:data.description}}></div>
      
        <div className='my-24'  >
         <p className='text-black font-semibold my-4'  >Share this article on social media</p>
